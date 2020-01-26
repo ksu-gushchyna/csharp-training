@@ -1,0 +1,16 @@
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\MyProject.exe
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\MyProject.pdb
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\MyProject.exe.config
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\workspace\MyProject\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\workspace\MyProject\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+D:\workspace\MyProject\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+D:\workspace\MyProject\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\workspace\MyProject\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

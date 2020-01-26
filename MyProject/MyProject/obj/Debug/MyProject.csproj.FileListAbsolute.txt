@@ -1,0 +1,6 @@
+D:\workspace\MyProject\MyProject\bin\Debug\MyProject.exe.config
+D:\workspace\MyProject\MyProject\bin\Debug\MyProject.exe
+D:\workspace\MyProject\MyProject\bin\Debug\MyProject.pdb
+D:\workspace\MyProject\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+D:\workspace\MyProject\MyProject\obj\Debug\MyProject.exe
+D:\workspace\MyProject\MyProject\obj\Debug\MyProject.pdb
