@@ -4,3 +4,9 @@ D:\workspace\MyProject\MyProject\bin\Debug\MyProject.pdb
 D:\workspace\MyProject\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
 D:\workspace\MyProject\MyProject\obj\Debug\MyProject.exe
 D:\workspace\MyProject\MyProject\obj\Debug\MyProject.pdb
+C:\training\csharp-training\MyProject\MyProject\bin\Debug\MyProject.exe.config
+C:\training\csharp-training\MyProject\MyProject\bin\Debug\MyProject.exe
+C:\training\csharp-training\MyProject\MyProject\bin\Debug\MyProject.pdb
+C:\training\csharp-training\MyProject\MyProject\obj\Debug\MyProject.exe
+C:\training\csharp-training\MyProject\MyProject\obj\Debug\MyProject.pdb
+C:\training\csharp-training\MyProject\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
