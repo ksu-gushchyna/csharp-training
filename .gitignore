@@ -1,1 +1,5 @@
-.vs/*
+**/MyProject/.vs
+**/MyProject/UnitTestProject1/obj/Debug/
+**/MyProject/MyProject/obj/
+**/MyProject/UnitTestProject1/obj/
+**/MyProject/MyProject/bin/

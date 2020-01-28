@@ -6,24 +6,33 @@ namespace MyProject
 	{
 		static void Main(string[] args)
         {
-            float a = 10;
-            float b = 5;
-            float resultA = 0;
-            float resultB = 0;
-            float currentResultA;
-            float currentResultB;
-            int mainResult;
+            float a = 36;
+            float b = 12;
+            float resultA;
+            float resultB;
 
-            for (int i = 1, j = 0; i <= a; i++, j++)
+
+            for (float i = a; i >= 0; i--)
             {
-                
-                if (a % i == 0 & b % j == 0)
+
+                if (a % i == 0)
                 {
-                    Console.WriteLine(i + "and" + j);
+                    resultA = i;
+                    if (b % i == 0)
+                    {
+                        resultB = i;
+                        if (resultA == resultB)
+                        {
+                            Console.WriteLine(resultA);
+                            break;
+
+                        }
+                    }
                 }
-                Console.ReadLine();
+
+
             }
-            
+            Console.ReadLine();
 
 
 
