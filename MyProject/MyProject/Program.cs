@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Principal;
 
 namespace MyProject
 {
@@ -6,43 +7,17 @@ namespace MyProject
     {
         static void Main(string[] args)
         {
-            float a = 2;
-            float b = 3;
-            float resultA;
-            float resultB;
-            float i;
-            float j;
 
-            if (a > b)
-            {
-                i = a;
-                j = i;
-            }
-            else
-            {
-                i = b;
-                j = i;
-            }
+            /* Условие: Написать программу, которая находит наибольший общий делитель (HOД) двух целых положительных чисел.*/
 
-
-            for (i = j; i >= 0; i--)
-            {
-                if (a % i == 0)
-                {
-                    resultA = i;
-                    if (b % i == 0)
-                    {
-                        resultB = i;
-                        if (resultA == resultB)
-                        {
-                            Console.WriteLine($"G.C.D. for {a} and {b} is {resultA}");
-                            break;
-                        }
-                    }
-                }
-            }
-
+            CalculateGCD calculate = new CalculateGCD();
+            Console.WriteLine("Problem #1: \nGCD is - " + calculate.GetGCD(10, 1000));
             Console.ReadLine();
+
+            //Problem 2: Написать программу, которая находит сумму цифр произвольного целого числа.
+
+
+            //Console.ReadLine();
             //Class1 class1 = new Class1(3, -5);
             //Console.WriteLine(class1.GetSquare());
         }
