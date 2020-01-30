@@ -8,18 +8,25 @@ namespace MyProject
         static void Main(string[] args)
         {
 
-            /* Условие: Написать программу, которая находит наибольший общий делитель (HOД) двух целых положительных чисел.*/
+            //Problem 1: Написать программу, которая находит наибольший общий делитель (HOД) двух целых положительных чисел.
+            Console.WriteLine("Problem #1");
+            CalculateGcd calculate = new CalculateGcd();
+            calculate.GetGcd(10, 1000);
+            calculate.GetGcd(10, -1000);
+            calculate.GetGcd(100, 5);
+            calculate.GetGcd(0, 0);
 
-            CalculateGCD calculate = new CalculateGCD();
-            Console.WriteLine("Problem #1: \nGCD is - " + calculate.GetGCD(10, 1000));
-            Console.ReadLine();
 
             //Problem 2: Написать программу, которая находит сумму цифр произвольного целого числа.
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Problem #2");
+            SummOfNumb summ = new SummOfNumb();
+            Console.WriteLine("Summ of numerals of number: " + summ.GetSumm(4441));
+            Console.ReadLine();
 
 
-            //Console.ReadLine();
-            //Class1 class1 = new Class1(3, -5);
-            //Console.WriteLine(class1.GetSquare());
+
+          
         }
     }
 }

@@ -2,20 +2,16 @@
 
 namespace MyProject
 {
-    public class CalculateGCD
+    public class CalculateGcd
     {
         /* Условие: Написать программу, которая находит наибольший общий делитель (HOД) двух целых положительных чисел.*/
 
         //объявление переменных
-        private float a;
-        private float b;
+        public float j,
+            resultA,
+            resultB;
 
-        private float resultA,
-            resultB,
-            result,
-            j;
-
-        public float GetGCD(float a, float b)
+        public void GetGcd(float a, float b)
         {
             //условие по какому входному числу будет идти цикл for
             j = a;
@@ -24,14 +20,16 @@ namespace MyProject
                 j = b;
             }
 
+
             //условия проверки невалидных значений
             if ((a == 0 & b == 0) | (a < 0 | b < 0))
             {
-                Console.WriteLine("Incorrect value");
+               Console.WriteLine($"INCORRECT VALUES: {a} or {b}");
             }
             //если значения подаваемые на вход валидные тогда ищем HОД
             else
             {
+               
                 for (float i = j; i >= 0; i--)
                 {
                     if (a % i == 0)
@@ -42,16 +40,13 @@ namespace MyProject
                             resultB = i;
                             if (resultA == resultB)
                             {
-                                //Console.WriteLine($"G.C.D. for {a} and {b} is {resultA}");
-                                result = resultA;
+                                Console.WriteLine($"GCD for {a} and {b} is: {resultA}");
                                 break;
                             }
                         }
                     }
                 }
             }
-
-            return result;
         }
     }
 }
