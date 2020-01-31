@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="CalculateGcd.cs" />
+    <Compile Include="PrimeNumber.cs" />
     <Compile Include="SummOfNumb.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

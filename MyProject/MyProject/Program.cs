@@ -22,11 +22,16 @@ namespace MyProject
             Console.WriteLine("Problem #2");
             SummOfNumb summ = new SummOfNumb();
             Console.WriteLine("Summ of numerals of number: " + summ.GetSumm(4441));
+            
+
+            //Problem 3: Написать программу проверки того, что заданное число Х - простое (т.е. не делится без остатка ни на какие числа, кроме себя и 1). Число X задавать в коде программы.
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Problem #3");
+            PrimeNumber primeNumber = new PrimeNumber();
+            Console.WriteLine("Prime Number: " + primeNumber.IsNumberPrime(3));
             Console.ReadLine();
 
 
-
-          
         }
     }
 }
