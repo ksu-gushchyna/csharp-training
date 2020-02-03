@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace-1\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj": {}
+    "C:\\training\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj": {}
   },
   "projects": {
-    "D:\\workspace-1\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj": {
+    "C:\\training\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace-1\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj",
+        "projectUniqueName": "C:\\training\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj",
         "projectName": "BubbleSorting",
-        "projectPath": "D:\\workspace-1\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj",
-        "packagesPath": "C:\\Users\\Pavilion\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace-1\\csharp-training\\MyProject\\BubbleSorting\\obj\\",
+        "projectPath": "C:\\training\\csharp-training\\MyProject\\BubbleSorting\\BubbleSorting.csproj",
+        "packagesPath": "C:\\Users\\ogushchy\\.nuget\\packages\\",
+        "outputPath": "C:\\training\\csharp-training\\MyProject\\BubbleSorting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pavilion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ogushchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.oraclecorp.com/artifactory/api/nuget/omc-max-nuget-dev-local/": {},
+          "http://artifactory.oraclecorp.com/artifactory/api/nuget/omc-max-nuget-release-local/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,12 +49,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,19 +16,17 @@ namespace MyProject
         {
             //условие по какому входному числу будет идти цикл for
             j = a;
-            if (a < b)
-            {
+            if (a < b) 
                 j = b;
-            }
 
 
             //условия проверки невалидных значений
             if ((a == 0 & b == 0) | (a < 0 | b < 0))
             {
-                throw new ArgumentException($"INCORRECT VALUES: { a } or { b}");
+                throw new ArgumentException($"INCORRECT VALUES: {a} or {b}");
             }
 
-               
+
             for (float i = j; i >= 0; i--)
             {
                 if (a % i == 0)
@@ -39,11 +37,13 @@ namespace MyProject
                         resultB = i;
                         if (resultA == resultB)
                         {
-                            gCD = resultA;                            
+                            gCD = resultA;
+                            break;
                         }
                     }
                 }
             }
+
             return gCD;
         }
     }
