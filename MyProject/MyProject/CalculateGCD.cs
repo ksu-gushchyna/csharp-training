@@ -9,9 +9,10 @@ namespace MyProject
         //объявление переменных
         public float j,
             resultA,
-            resultB;
+            resultB,
+            gCD;
 
-        public void GetGcd(float a, float b)
+        public float GetGcd(float a, float b)
         {
             //условие по какому входному числу будет идти цикл for
             j = a;
@@ -24,29 +25,26 @@ namespace MyProject
             //условия проверки невалидных значений
             if ((a == 0 & b == 0) | (a < 0 | b < 0))
             {
-               Console.WriteLine($"INCORRECT VALUES: {a} or {b}");
+                throw new ArgumentException($"INCORRECT VALUES: { a } or { b}");
             }
-            //если значения подаваемые на вход валидные тогда ищем HОД
-            else
-            {
+
                
-                for (float i = j; i >= 0; i--)
+            for (float i = j; i >= 0; i--)
+            {
+                if (a % i == 0)
                 {
-                    if (a % i == 0)
+                    resultA = i;
+                    if (b % i == 0)
                     {
-                        resultA = i;
-                        if (b % i == 0)
+                        resultB = i;
+                        if (resultA == resultB)
                         {
-                            resultB = i;
-                            if (resultA == resultB)
-                            {
-                                Console.WriteLine($"GCD for {a} and {b} is: {resultA}");
-                                break;
-                            }
+                            gCD = resultA;                            
                         }
                     }
                 }
             }
+            return gCD;
         }
     }
 }

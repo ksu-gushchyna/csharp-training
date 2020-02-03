@@ -10,7 +10,7 @@ namespace MyProject
             string st = number.ToString();
 
             int sum = 0;
-            for (int i = 0; i < st.Length(); i++)
+            for (int i = 0; i < st.Length; i++)
             {
                sum = sum + (int)Char.GetNumericValue(st[i]);
             }
