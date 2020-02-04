@@ -32,8 +32,20 @@ namespace MyProject
             primeNumber.IsNumberPrime(3);
             primeNumber.IsNumberPrime(10);
             primeNumber.IsNumberPrime(79);
-            Console.ReadLine();
             
+
+            //Problem 4:
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Problem #4");
+            RowAmount rowAmount = new RowAmount();
+            
+            Console.WriteLine(rowAmount.GetSummOfFactorials(3));
+
+            Console.ReadLine();
+
+
+
+
 
         }
     }

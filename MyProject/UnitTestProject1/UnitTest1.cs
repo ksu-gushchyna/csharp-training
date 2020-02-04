@@ -11,7 +11,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             //arrange
-            Class1 class1 = new Class1();
+            GetSetClass class1 = new GetSetClass();
             int a = -2;
             int b = 3;
             double expected = 6;
@@ -26,7 +26,7 @@ namespace UnitTestProject1
         public void TestMethodException()
         {
             //arrange
-            Class1 class1 = new Class1();
+            GetSetClass class1 = new GetSetClass();
             int a = -2;
             int b = 3;
 

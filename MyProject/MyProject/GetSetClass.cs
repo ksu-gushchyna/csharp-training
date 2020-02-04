@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProject
 {
-    public class Class1
+    public class GetSetClass
     {
         private int a;
         private int b;
@@ -29,12 +29,12 @@ namespace MyProject
             }
         }
 
-        public Class1(int width, int height) {
+        public GetSetClass(int width, int height) {
             A = width;
             B = height;
         }
 
-        public Class1() { }
+        public GetSetClass() { }
        
 
         public double GetSquare() { 

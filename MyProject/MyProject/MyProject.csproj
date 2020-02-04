@@ -49,7 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="RowAmount.cs" />
+    <Compile Include="GetSetClass.cs" />
     <Compile Include="CalculateGcd.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="SummOfNumb.cs" />
