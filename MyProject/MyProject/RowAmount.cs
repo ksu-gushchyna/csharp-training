@@ -11,7 +11,7 @@ namespace MyProject
             previous = 2,
             summ;
 
-        public int GetFactorial(int n)
+        private int GetFactorial(int n)
         {
             if (n == 1 ^ n == 2)
             {
@@ -23,6 +23,7 @@ namespace MyProject
                 result = previous * i;
                 previous = result;
             }
+
             return result;
         }
 
@@ -32,9 +33,9 @@ namespace MyProject
             for (int i = 2; i <= n; i++)
             {
                 summ = previousSumm + this.GetFactorial(i);
-                Console.WriteLine(summ);
                 previousSumm = summ;
             }
+
             return summ;
         }
     }
