@@ -2,11 +2,12 @@
 
 namespace MyProject
 {
-    class SummOfNumb
+    public class SummOfNumb
     {
         private int number;
         public int GetSumm(int number)
         {
+            //Problem 2: Написать программу, которая находит сумму цифр произвольного целого числа.
             string st = number.ToString();
 
             int sum = 0;

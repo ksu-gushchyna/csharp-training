@@ -1,13 +1,12 @@
-﻿using System;
+﻿
 
 namespace MyProject
 {
-    class RowAmount
+    public class RowAmount
     {
         //Сосчитать сумму ряда 1! - 2! + 3! - 4! + 5! - : + n! для заданного числа n > 0. Чем шире диапазон возможных значений n, тем лучше. Число n задавать в коде программы.
-        private int n;
-
-        private int result,
+        private int n,
+            result,
             previous = 2,
             summ;
 

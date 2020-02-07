@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Principal;
 
 namespace MyProject
 {
@@ -28,19 +27,13 @@ namespace MyProject
             Console.WriteLine("Problem #3");
             PrimeNumber primeNumber = new PrimeNumber();
             primeNumber.IsNumberPrime(1);
-            primeNumber.IsNumberPrime(2);
-            primeNumber.IsNumberPrime(3);
-            primeNumber.IsNumberPrime(10);
-            primeNumber.IsNumberPrime(79);
-            
 
-            //Problem 4:
+
+            //Problem 4: Сосчитать сумму ряда 1! - 2! + 3! - 4! + 5! - : + n! для заданного числа n > 0. Чем шире диапазон возможных значений n, тем лучше. Число n задавать в коде программы.
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("Problem #4");
             RowAmount rowAmount = new RowAmount();
-            
             Console.WriteLine(rowAmount.GetSummOfFactorials(3));
-
             Console.ReadLine();
 
 

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject", "MyProject\MyProject.csproj", "{D4A75701-720B-4350-9343-6BF591686509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{E5494645-922B-4BC9-A772-FF4024667C78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMyProject", "UnitTestProject1\UnitTestMyProject.csproj", "{E5494645-922B-4BC9-A772-FF4024667C78}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSorting", "BubbleSorting\BubbleSorting.csproj", "{16E3E5E5-C3F4-4B5D-B37F-753C2890D51E}"
 EndProject
