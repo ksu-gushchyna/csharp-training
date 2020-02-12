@@ -34,7 +34,16 @@ namespace MyProject
             Console.WriteLine("Problem #4");
             RowAmount rowAmount = new RowAmount();
             Console.WriteLine(rowAmount.GetSummOfFactorials(3));
+            
+
+            //Problem5: Найти НОД методом Евклида (алгоритм Евклида). Использовать рекурсивную процедуру. Для чисел 3430 и 1365:
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Problem #5");
+            GcdByEuclideanAlgorithmWithRecursion gcdByEuclidean = new GcdByEuclideanAlgorithmWithRecursion();
+            Console.WriteLine(gcdByEuclidean.GetGcd(106, 16));
+
             Console.ReadLine();
+
 
 
 
