@@ -32,14 +32,12 @@ namespace MyProject
                     result = secondNumb;
                     break;
                 }
-                else
-                {
-                    firstNumb = secondNumb;
-                    secondNumb = modulo;
-                    this.GetGcd(firstNumb, secondNumb);
-                }
-            }
 
+                firstNumb = secondNumb;
+                secondNumb = modulo;
+                result = this.GetGcd(firstNumb, secondNumb);
+
+            }
 
             return result;
         }
