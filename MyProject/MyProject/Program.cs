@@ -10,8 +10,8 @@ namespace MyProject
             //Problem 1: Написать программу, которая находит наибольший общий делитель (HOД) двух целых положительных чисел.
             Console.WriteLine("Problem #1");
             CalculateGcd calculate = new CalculateGcd();
-            int a = 36;
-            int b = 12;
+            int a = 106;
+            int b = 16;
             Console.WriteLine($"GCD of {a} and {b} is " + calculate.GetGcd(a, b));
 
             //Problem 2: Написать программу, которая находит сумму цифр произвольного целого числа.
