@@ -4,11 +4,9 @@
 
     class GcdByEuclideanAlgorithmWithRecursion
     {
-        private int result,
-            modulo;
-
         public int GetGcd(int firstNumb, int secondNumb)
         {
+            int modulo;
             if (firstNumb > secondNumb)
             {
                 modulo = firstNumb % secondNumb;
@@ -17,23 +15,15 @@
             {
                 modulo = secondNumb % firstNumb;
             }
-
-
-            while (modulo >= 0)
-            {
                 if (modulo == 0)
                 {
-                    result = secondNumb;
-                    break;
+                    return secondNumb;
+                   
                 }
 
                 firstNumb = secondNumb;
                 secondNumb = modulo;
-                result = this.GetGcd(firstNumb, secondNumb);
-
-            }
-
-            return result;
+                return this.GetGcd(firstNumb, secondNumb);
         }
     }
 }

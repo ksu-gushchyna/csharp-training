@@ -1,0 +1,11 @@
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.csprojAssemblyReference.cache
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.AssemblyInfoInputs.cache
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.AssemblyInfo.cs
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\bin\Debug\netcoreapp3.1\AbstractClasses.exe
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\bin\Debug\netcoreapp3.1\AbstractClasses.deps.json
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\bin\Debug\netcoreapp3.1\AbstractClasses.runtimeconfig.json
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\bin\Debug\netcoreapp3.1\AbstractClasses.runtimeconfig.dev.json
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\bin\Debug\netcoreapp3.1\AbstractClasses.dll
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\bin\Debug\netcoreapp3.1\AbstractClasses.pdb
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.dll
+D:\workspace-1\csharp-training\AbstractClasses\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.pdb
