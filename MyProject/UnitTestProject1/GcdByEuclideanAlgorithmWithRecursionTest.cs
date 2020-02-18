@@ -40,6 +40,22 @@ namespace UnitTestProject1
             Assert.AreEqual(expected, actual, "not equal");
         }
 
+        [TestMethod]
+        public void GcdByEuclideanAlgorithmWithRecursion_should_return_correct_value_when_first_and_second_numbers_are_equal()
+        {
+            //arrange
+            GcdByEuclideanAlgorithmWithRecursion gcdByEuclideanAlgorithmWithRecursion = new GcdByEuclideanAlgorithmWithRecursion();
+            int firstNumb = 10;
+            int secondNumb = 10;
+            int expected = 10;
+
+            //act
+            int actual = gcdByEuclideanAlgorithmWithRecursion.GetGcd(firstNumb, secondNumb);
+
+            //assert
+            Assert.AreEqual(expected, actual, "not equal");
+        }
+
 
     }
 }
