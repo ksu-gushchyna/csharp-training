@@ -56,6 +56,20 @@ namespace UnitTestProject1
             Assert.AreEqual(expected, actual, "not equal");
         }
 
+        [TestMethod]
+        public void GcdByEuclideanAlgorithmWithRecursion_should_trhow_exception_for_zero()
+        {
+            //arrange
+            GcdByEuclideanAlgorithmWithRecursion gcdByEuclideanAlgorithmWithRecursion = new GcdByEuclideanAlgorithmWithRecursion();
+            int firstNumb = 0;
+            int secondNumb = 10;
+
+            //act
+            //assert
+            Assert.ThrowsException<System.DivideByZeroException>(() => gcdByEuclideanAlgorithmWithRecursion.GetGcd(firstNumb, secondNumb));
+
+        }
+
 
     }
 }
