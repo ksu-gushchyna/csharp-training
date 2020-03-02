@@ -10,4 +10,6 @@
 **/MyProject/packages/*
 **/MyProject/BubbleSorting/obj/
 **/MyProject/BubbleSorting/bin/Debug/*
-**/AbstractClasses/.vs
+**/AbstractClasses/.vs/*
+**/AbstractClasses/AbstractClasses/bin/*
+**/AbstractClasses/AbstractClasses/obj/*
