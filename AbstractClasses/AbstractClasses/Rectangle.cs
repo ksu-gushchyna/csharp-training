@@ -4,23 +4,21 @@
     class Rectangle : Figure
     {
         private double a;
-        private double b;
-
+        
         //конструктор
-        public Rectangle(double sideA, double sideB)
+        public Rectangle(double sideA, double sideB) : base(sideB)
         {
             this.a = sideA;
-            this.b = sideB;
         }
         //полиморфизм
         internal override double GetArea()
         {
-            return a * b;
+            return a * Side;
         }
 
-        protected override double GetPerimeter()
+        internal override double GetPerimeter()
         {
-            return 2 * (a + b);
+            return 2 * (a + Side);
         }
     }
 }

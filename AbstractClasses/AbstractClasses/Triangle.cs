@@ -2,25 +2,31 @@
 {
     class Triangle : Figure
     {
-        private double a;
-        private double b;
-        private double c;
+        //поля
+        //private double a;
+        //private double b;
+        //private double c;
 
-        public Triangle(double a, double b, double c, double h) {
-            this.a = a;
-            this.b = b;
-            this.c = c;
-            Side = h;
+        //свойства - метод для управления полями
+        public double A { get; set; } = 0;
+        public double B { get; set; } = 0;
+        public double C { get; set; } = 0;
+        public Triangle(double a, double b, double c, double side) : base(side)
+        {
+            //base - указание на базовый класс Figure
+            A = a;
+            B = b;
+            C = c;           
         }
 
         internal override double GetArea()
         {
-            return 0.5 * a * Side;
+            return 0.5 * A * Side;
         }
 
-        protected override double GetPerimeter()
+        internal override double GetPerimeter()
         {
-            return a + b + c;
+            return A + B + C;
         }
     }
 }
