@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{E5241B61-C232-4C29-B8DA-F38C95E65E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassesFigure", "AbstractClasses\AbstractClassesFigure.csproj", "{E5241B61-C232-4C29-B8DA-F38C95E65E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Calc\Calc.csproj", "{8B5F7A3E-9E9B-44BE-B8F3-0E033360AE7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E5241B61-C232-4C29-B8DA-F38C95E65E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5241B61-C232-4C29-B8DA-F38C95E65E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5241B61-C232-4C29-B8DA-F38C95E65E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5F7A3E-9E9B-44BE-B8F3-0E033360AE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5F7A3E-9E9B-44BE-B8F3-0E033360AE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5F7A3E-9E9B-44BE-B8F3-0E033360AE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5F7A3E-9E9B-44BE-B8F3-0E033360AE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
