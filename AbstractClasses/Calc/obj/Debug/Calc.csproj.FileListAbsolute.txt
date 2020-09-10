@@ -1,0 +1,5 @@
+C:\training\csharp-training\AbstractClasses\Calc\bin\Debug\Calc.exe.config
+C:\training\csharp-training\AbstractClasses\Calc\bin\Debug\Calc.exe
+C:\training\csharp-training\AbstractClasses\Calc\bin\Debug\Calc.pdb
+C:\training\csharp-training\AbstractClasses\Calc\obj\Debug\Calc.exe
+C:\training\csharp-training\AbstractClasses\Calc\obj\Debug\Calc.pdb

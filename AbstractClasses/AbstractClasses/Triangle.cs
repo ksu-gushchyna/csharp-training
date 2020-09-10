@@ -1,4 +1,4 @@
-﻿namespace AbstractClassesFigure
+﻿namespace AbstractClasses
 {
     class Triangle : Figure
     {
